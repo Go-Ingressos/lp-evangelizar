@@ -11,9 +11,16 @@ const HeaderEvangelizar = () => {
             width={50}
             height={50}
           />
-          <h2 className="text-white text-base uppercase">
+          <h2 className="text-white text-base uppercase tracking-wider">
             Evangelizar <br />{" "}
-            <b className="font-extralight tracking-wider">Sempre</b>
+            <b
+              className="font-extralight"
+              style={{
+                letterSpacing: "0.5em",
+              }}
+            >
+              Sempre
+            </b>
           </h2>
         </div>
       </div>

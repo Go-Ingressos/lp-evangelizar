@@ -16,7 +16,7 @@ const FooterEvangelizar = () => {
             height={50}
           />
           <h2
-            className="uppercase text-brand text-lg" 
+            className="uppercase text-brand text-lg tracking-wider" 
           >
             Evangelizar <br />{" "}
             <b

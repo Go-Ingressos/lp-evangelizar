@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
-import { Bebas_Neue } from "next/font/google";
+import { Oswald } from "next/font/google";
 import "./globals.css";
 import HeaderEvangelizar from "@/components/Header";
 import FooterEvangelizar from "@/components/Footer";
 
-const bebasNeue = Bebas_Neue({
+const bebasNeue = Oswald({
   subsets: ["latin-ext"],
-  weight: "400",
+  weight: ["200", "300", "400", "700", "600"],
 });
 
 export const metadata: Metadata = {
