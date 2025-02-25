@@ -34,7 +34,7 @@ export default function Home() {
           </div>
         </div>
         <div className="w-full lg:w-1/2">
-          <h4 className="text-brand text-4xl">
+          <h4 className="text-brand text-4xl mb-2">
             Conheça nossos planos e <b className="font-extrabold">APOIE</b>
           </h4>
           <ul className="flex flex-col gap-4">
