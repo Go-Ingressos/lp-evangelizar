@@ -20,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="pt" translate="no">
       <body className={`${bebasNeue.className} antialiased`}>
         <HeaderEvangelizar />
         <main className="min-h-[80vh] text-black text-md">{children}</main>
