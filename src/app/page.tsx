@@ -21,7 +21,7 @@ export default function Home() {
           <div className="flex flex-row justify-between items-center gap-2">
             <Link
               href="https://goingressos.com.br/acesso/login-evangelizar"
-              className="border w-full py-5 flex-col border-slate-300 flex items-center justify-center px-4 rounded-md text-brand"
+              className="w-full py-5 flex-col bg-brand shadow flex items-center justify-center px-4 rounded-md text-white hover:brightness-90"
             >
               <p className="text-3xl">Clique aqui e contribua</p>
             </Link>
